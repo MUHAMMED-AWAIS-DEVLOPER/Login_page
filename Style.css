@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.main {
+    width: 100%;
+    height: 109vh;
+    color: white;
+    position: relative;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%),
+                url(Images/logo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* Navbar */
+.navbar {
+    width: 100%;
+    max-width: 1200px;
+    height: 75px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+}
+
+.menu ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight:600;
+    font-size: 25px;
+    transition: 0.4s ease-in-out;
+}
+
+.menu ul li a:hover {
+    color: #ff7200;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.srch {
+    font-family: 'Times New Roman', serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    border-right: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus,
+.srch:focus {
+    outline: none;
+}
+
+/* Content */
+.content {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 100px;
+    position: relative;
+}
+
+.content h1 {
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+}
+
+.content span {
+    color: #ff7200;
+    font-size: 60px;
+}
+
+.content .par {
+    padding-left: 20px;
+    padding-top: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+}
+
+.content .cn {
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.content .cn a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: center;
+}
+
+.content .cn:hover {
+    background-color: white;
+}
+
+/* Login Form */
+.form {
+    width: 300px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+}
+
+.form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form input {
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: none;
+    border-bottom: 2px solid #ff7200;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+}
+
+.form .btn {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.form .btn a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 100%;
+}
+
+.link,
+.liw {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+a {
+    color: #ff7200;
+}
+
+/* Social Icons */
+.icons a {
+    
+    color: white;
+}
+
+.icons ion-icon {
+    color: white;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+}
